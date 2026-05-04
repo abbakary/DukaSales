@@ -1,5 +1,5 @@
 /* Dynamically determine API base URL. */
-const DEFAULT_API_BASE_URL = "https://duka-salesplatform-1.onrender.com";
+const DEFAULT_API_BASE_URL = "https://dukaapp-dyol.onrender.com";
 
 const API_BASE_URL = (() => {
   if (process.env.NEXT_PUBLIC_API_BASE_URL) {
